@@ -1,19 +1,36 @@
 .button {
   background: $blue;
   border: none;
-  color: white;
+  color: $dark-grey;
   display: inline-block;
   font-size: $font-size-large;
   font-weight: 300;
   line-height: 1;
   padding: $s-size;
   text-decoration: none;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: $dark-blue;
+  color: white;
 }
 
 .button--link {
   background: none;
+  color: white;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
 }
 
 .button--secondary {
-  background: #888;
+  background: #999;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button--secondary:hover {
+  background-color: $dark-grey;
+  color: white;
 }

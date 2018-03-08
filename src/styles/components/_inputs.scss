@@ -14,3 +14,9 @@
   @extend .text-input;
   height: 10rem;
 }
+
+.text-input:focus {
+  border-color: rgba(126, 239, 104, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 4px $dark-blue;
+  outline: 0 none;
+}
